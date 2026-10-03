@@ -1,2 +1,2 @@
 # Fashion-MNIST ANN Pipeline
-Assignment 3 project (Fashion-MNIST classifier).
+Assignment 3: Git + DVC + Fashion-MNIST ANN pipeline.

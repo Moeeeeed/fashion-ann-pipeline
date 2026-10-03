@@ -4,3 +4,4 @@ __pycache__/
 *.h5
 .dvc/config.local
 .dvc/tmp
+/models

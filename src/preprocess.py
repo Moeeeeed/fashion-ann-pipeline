@@ -5,7 +5,8 @@ from sklearn.model_selection import train_test_split
 
 
 def normalize(a):
-    return a / 127.5 - 1.0
+    a = a / 255.0  # scale to [0, 1]
+    return (a - 0.286) / 0.353  # standardize
 
 
 p = yaml.safe_load(open("params.yaml"))["preprocess"]
